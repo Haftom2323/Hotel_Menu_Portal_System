@@ -1,0 +1,33 @@
+.separator {
+    width: 1px;
+    height: 50px;
+    border: 1px solid #ff7c3b !important;
+    margin-top: -1%;
+    margin-left: 12%;
+    opacity: 0.5;
+  }
+  hr{
+      border: 1px solid #0e97d8 !important;
+      width: 50px;
+      margin-left: 100px;
+      transition: all linear 0.3s;
+  }
+  .tab-jobs {
+    margin-left: 200px !important;
+  }
+  .separatorvertical{
+    width: 1px;
+    height: 500px;
+    border: 1px solid #ff7c3b !important;
+    margin-top: 100%;
+    margin-left: 0%;
+    padding-top: 10px;
+    opacity: 0.5;
+  }
+  .wrapper{
+    background: #fff;
+    padding: 20px 25px;
+    margin: 30px 0;
+border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  }

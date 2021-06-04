@@ -1,0 +1,70 @@
+const login = require("../api/loginRoute");
+const admin = require("../api/adminDashboardroute");
+const hotel = require("../api/hotelSignupRout");
+const getPenddingHotels = require("../api/getPenddingHotels");
+const menus = require("../api/menus");
+const upload = require("../api/upload");
+const acceptHotel = require("../api/acceptHotel");
+const rejectHotel = require("../api/rejectHotel");
+const getHotelNotification = require("../api/getHotelNotification");
+const mail = require("../mail");
+const editMenus = require("../api/editMenus");
+const pdf = require("../api/pdf");
+const forgotPassword = require("../api/forgotPasswordRoute");
+const image = require("../api/image");
+const Hotel = require("../api/getHotels");
+const hotelSubscription = require("../api/hotelSubscription");
+const getAllUsers = require("../api/getAllUsers");
+const getAllHotels = require("../api/getAllHotels");
+const getAdminAccount = require("../api/getAdminAccount");
+const admindashbord = require("../api/adminDashboard");
+const blockHotel = require("../api/blockHotel");
+const unBlockHotel = require("../api/unBlockHotel");
+const subSystem = require("../api/subSystem");
+const searchResult = require("../api/searchResult");
+//const getUserNotification = require("../api/getUserNotification");
+const path = require("path");
+function loadRouters(router, app) {
+  router.get("/", (req, res) => {
+    console.log("loadRouter called");
+    res.sendFile(path.resolve("public/index.html"));
+    // res.json({ message: "Welcome to NileJobs - Home of Dream Jobs!" });
+  });
+  router.post("/unBlockHotel", unBlockHotel);
+  router.get("/getnotification", Hotel.getnotification);
+  router.post("/subSystem", subSystem);
+  router.post("/searchResult", searchResult);
+  router.post("/blockHotel", blockHotel);
+  router.get("/getAdminAccount", getAdminAccount);
+  router.get("/admindashbord", admindashbord);
+  router.post("/sendEmail", mail.sendEmail);
+  router.post("/hotelSubscription", hotelSubscription);
+  router.post("/menus", menus.menus);
+  router.post("/addMenus", menus.addMenus);
+  router.post("/editMenus", editMenus);
+  router.post("/deleteItem", menus.deleteMenu);
+  router.post("/searchItem", menus.searchItem);
+  router.get("/getAllHotels", getAllHotels);
+  router.get("/getAllUsers", getAllUsers);
+  //router.get("/getUserNotification", getUserNotification);
+  router.post("/login", login.login);
+  router.get("/admin/dashboard", admin.dashboard);
+  router.post("/hotelSignup", hotel.signup);
+  router.get("/getPendingHotels", getPenddingHotels);
+  router.post("/pdf", pdf);
+  router.post("/image", image);
+  router.post("/forgotPassword", forgotPassword);
+  // router.get('/viewprofile',userprofile.userprofile)
+  router.post("/upload", upload);
+  router.post("/getHotelNotification", getHotelNotification);
+  router.post("/acceptHotel", acceptHotel);
+  router.get("/getimages", Hotel.getimages);
+  router.post("/rejectHotel", rejectHotel);
+  router.get("/getHotels", Hotel.hotels);
+  router.get("/getSubsHotels", Hotel.getSubsHotels);
+  // router.get('/admin/jobs', home.jobs)
+  router.post("/customersignup", hotel.customerSignup);
+  app.use("/api", router);
+}
+
+module.exports = loadRouters;

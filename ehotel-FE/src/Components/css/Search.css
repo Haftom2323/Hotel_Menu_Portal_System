@@ -1,0 +1,31 @@
+.ant-input-affix-wrapper > input {
+    border-radius: 30px;
+}
+.ant-input-suffix {
+    margin-right: -82px;
+}
+
+.ant-input-suffix > span > input {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.ant-cascader-picker {
+    width: 70%;
+}
+
+.ant-input::placeholder{
+    color: #f57b25;
+}
+
+input[type="text"]{
+    padding-left: 40px !important;
+}
+
+.ant-tag {
+    border-radius: 30px;
+}
+
+.ant-input-prefix > i {
+    margin-right: 20px;
+}

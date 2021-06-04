@@ -1,0 +1,95 @@
+*{
+    font-family:"Montserrat";
+    margin:0 ;
+    padding: 0;
+}
+
+.logo{
+    margin-right: 200px;
+    padding: 0 !important;
+}
+.form-control{
+    border-radius: 16px !important;
+}
+ .nav-item{
+    /* border: 2px solid red !important; */
+    margin-left: 150px !important;
+ }
+.btn-primary{
+    border-radius: 20px !important;
+    background-color: #FF7C38 !important;
+    color: white;
+    border: none;
+}
+.aa-light{
+    border-radius: 20px !important;
+} 
+.aa{
+    background-color: white !important;  
+}
+.aa:hover{
+    color:#FF7C38 !important;
+    background-color: white !important;
+ 
+}
+.text-primary{
+    color: #FF7C38 !important;
+}
+.image{
+    margin-right: 490px;
+}
+footer{
+    margin-top: 100px !important;
+    max-height: 300px !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+.Landing_CoverImage{
+    /* max-width: 600px !important; */
+    /* max-height: 2000px !important; */
+    position: absolute;
+    top:-38px;
+    right:0; 
+    z-index: -10;
+}
+.FindYourJob{
+    margin-bottom: 100px !important;
+}
+.query{
+    margin: 0 auto; 
+    margin-top: 20px;
+    box-shadow:5px 10px 20px 1px #7ea3e9 !important;
+    border-radius: 20px !important;
+}
+
+.imgleft{
+    position: absolute;
+    right:-15px;
+    z-index: -1;
+}
+ .col-8{
+    padding:0;
+    margin:0;
+     
+}
+.card:hover{
+    border:1px solid #FF7C38 ;
+  border-radius: 50px;
+}
+.shadow{
+    border-radius: 50% !important;
+    background-color: rgb(236, 236, 241);
+}
+.card{
+    /* box-shadow:5px 10px 20px 1px !important; */
+    
+    border:1px solid  #fff ;
+    border-radius: 50px;
+}
+.homecontent{
+    /* border:2px solid blue; */
+    margin: 200px;
+    margin-left: 30px;
+}

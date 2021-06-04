@@ -1,0 +1,194 @@
+.body{
+    padding-left:15% !important;
+    padding-top: 0% !important;
+}
+.resume{
+    border:3px solid rgb(60,181,239,0.2) !important;
+    border-radius: 02px;
+    width:30rem !important;    
+}
+.Account{
+    border:2px solid rgb(245, 123, 37,0.5) !important;
+    border-radius: 02px;
+    width: 25rem !important; 
+}
+.Subscribe{
+    border:0 !important;
+    border-radius: 50px;
+    width: 30rem !important;
+}
+.edit{
+    border-radius:10px;
+    float:right !important;
+    background-color: rgb(52,134,216)!important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    display: inline-block;
+   width: 100px;
+    margin-right: 8px;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 30px;
+    white-space: nowrap;
+    border: 1px solid #d9d9d9;
+    cursor: default;
+    color:white !important;
+    opacity:1;
+  
+}
+.btn-warning button:focus{
+    outline: none;
+}
+.btn-warning{
+    border-radius:8px;
+    float:right !important;
+    background-color: rgb(245, 123, 37) !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    display: inline-block;
+   width: 100px;
+    margin-right: 8px;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 30px;
+    white-space: nowrap;
+    border: 1px solid #d9d9d9;
+    cursor: default;
+    color:white !important;
+    opacity:1;
+    outline: none;
+  
+}
+
+.card-title1{
+
+    color: rgb(60,181,239);
+    border-bottom :  3px solid  rgb(245, 123, 37,0.2) !important;
+    font-family:"Montserrat";
+    font-size: 25px;
+    
+  
+}
+.card-title2{
+    color: #f57b25;
+    border-bottom : 1px solid #03a8f45e  ;
+    font-family:"Montserrat";
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.card-title{
+
+    color: #f57b25;
+    border-bottom : 3px solid rgb(60,181,239,0.2) !important ;
+    font-family:"Montserrat";
+    font-size: 25px;
+  
+}
+.formcontrol{
+    border: 0;
+    border-bottom: 3px solid rgb(60,181,239,0.2) !important ; 
+    font-family:"Montserrat";
+    font-size: 20px; 
+    display: inline-block;
+  
+
+}
+.form-control1 {
+  border: 0;
+  border-bottom: 3px solid  rgb(245, 123, 37,0.2) !important ; 
+  font-family:"Montserrat";
+  font-size: 20px;
+  display: inline-block;
+
+}
+input:disabled{
+    color: rgb(245, 123, 37,0.32) !important;
+    background-color:transparent;
+    font-family:"Montserrat";
+    font-weight: bold;
+    display: inline-block;
+}
+
+option:disabled
+{
+    color:red !important;
+    background-color:transparent;
+    font-family:"Montserrat";
+    font-weight: bold;
+    display: inline-block;
+}
+textarea:disabled{
+    background-color:transparent;   
+}
+
+#experience{
+    display: inline-block;
+    width: 100%;
+    height: calc(7em + .75rem + 2px);
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:rgb(14,151,216,1)!important;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border:3px solid  rgb(245, 123, 37,0.2) !important;
+}
+   
+label{
+    padding-top:0px;
+    color: rgb(14,151,216) ;
+    font-family:"Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+ 
+    
+}
+.label1{
+    padding-top:10px;
+    color: #f57b25 ;
+    font-family:"Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+h4{
+    color: #f57b25;
+    font-family:"Montserrat";
+    font-size: 20px;
+}
+.applied{
+    padding-top: 20%;
+    padding-left: 30% !important;
+
+}
+.closeIcon{
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    float:right !important;
+    font-size:20px;
+    color:  rgb(245, 123, 37,0.4) !important;
+}
+.subscribeds{
+   color:rgb(14,151,216) !important;
+   font-size: 20px;
+   margin-top:0px !important;
+   font-family:"Montserrat";
+   font-weight: bold;
+}
+
+.subscribed{
+    color:rgb(14,151,216,1)!important;
+    font-size: 17px;
+    margin-top:0px !important;
+    padding-top: 0 !important;
+  
+ }
+ .skills{
+    color:white !important;
+    font-size: 17px;
+    margin-top:0px !important;
+ }
